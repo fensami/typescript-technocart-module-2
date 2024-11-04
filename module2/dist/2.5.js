@@ -22,4 +22,5 @@
         return Object.assign(Object.assign({}, student), { course });
     };
     const student1 = addCourseToStudent({ name: 'asad', roll: 20, email: "asadurjamannur@gmail.com" });
+    const student2 = addCourseToStudent({ name: 'asad', roll: 20, email: "nur@gmail.com" });
 }

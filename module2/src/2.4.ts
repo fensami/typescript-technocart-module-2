@@ -15,11 +15,11 @@
         Bike?: X
     }
 
-type SmartWatch1 ={
-    name: string
-    model: number
-    brand: string
-}
+    type SmartWatch1 = {
+        name: string
+        model: number
+        brand: string
+    }
     const poorDeveloper: Developer<SmartWatch1> = {
         name: 'Dell',
         computer: {

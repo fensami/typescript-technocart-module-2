@@ -49,6 +49,11 @@
         roll: number;
         email: string;
     }>({ name: 'asad', roll: 20, email: "asadurjamannur@gmail.com" })
+    const student2 = addCourseToStudent<{
+        name: string;
+        roll: number;
+        email: string;
+    }>({ name: 'asad', roll: 20, email: "nur@gmail.com" })
 
 
 
